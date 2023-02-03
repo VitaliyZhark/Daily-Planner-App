@@ -23,3 +23,12 @@ $(".time-block").each(function(){
      }
 });
 
+//Save Button Clicked Function
+$(".saveBtn").on("click", function(){
+    //Key
+    var key = $(this).parent().attr("id").split("-")[1];
+    //Value
+    var value = $(this).parent().find(".description").val();
+    //Save Key and Value to Local Storage
+    localStorage.setItem(key,value);
+});
