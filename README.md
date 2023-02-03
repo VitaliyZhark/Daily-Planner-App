@@ -1,87 +1,50 @@
-# Third-Party APIs: Work Day Scheduler
 
-## Your Task
+<h1><a href="https://vitaliyzhark.github.io/Daily-Planner-App/"> Daily Work Planner</a></h1>
+<br>
+<h2>Table of Contents</h2>
 
-Create a simple calendar application that allows a user to save events for each hour of the day by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
+<ul>
+  <li><a href="#Goals">Goals</li>
+  <li><a href="#Acceptance Criteria">Acceptance Criteria</li>
+  <li><a href="#Technologies">Technologies</li>
+  <li><a href="#Preview">Preview</li>
+  <li><a href="#Contributing">Contributing</li>
+  <li><a href="#License">License</li>
+</ul>
 
-You'll need to use the [Moment.js](https://momentjs.com/) library to work with date and time. Be sure to read the documentation carefully and concentrate on using Moment.js in the browser.
+<h2 id="Goals">Goals</h2>
+<p>This Challenge will require you to leverage all the skills you've learned so far, requiring you to think about DOM manipulation, advanced JavaScript, integration of third-party APIs, and more. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery..</p>
 
-## User Story
+<h2 id="Acceptance Criteria">Acceptance Criteria</h2>
+<text>The app should:</text>
+<ul>
+  <li>Display the current day at the top of the calendar when a user opens the planner.</li>
+  <li>Present timeblocks for standard business hours when the user scrolls down.</li>
+  <li>Color-code each timeblock based on past, present, and future when the timeblock is viewed.</li>
+  <li>Allow a user to enter an event when they click a timeblock.</li>
+  <li>Save the event in local storage when the save button is clicked in that timeblock.</li>
+  <li>Persist events between refreshes of a page.</li>
+</ul>
 
-```md
-AS AN employee with a busy schedule
-I WANT to add important events to a daily planner
-SO THAT I can manage my time effectively
-```
- 
-## Acceptance Criteria
+<h2 id="Technologies">Technologies</h2>
+<ul>
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>Javascript</>
+</ul>
 
-The app should:
+<h2 id="Preview">Preview</h2>
+<p>The following image shows the web application's appearance and functionality:</p>
+<img width="300px" height="auto" src="https://github.com/VitaliyZhark/Daily-Planner-App/blob/main/images/05-third-party-apis-homework-demo.gif?raw=true">
+<p>Feel free to use my own colors and images.</p>
 
-* Display the current day at the top of the calender when a user opens the planner.
- 
-* Present timeblocks for standard business hours when the user scrolls down.
- 
-* Color-code each timeblock based on past, present, and future when the timeblock is viewed.
- 
-* Allow a user to enter an event when they click a timeblock
+<h2 id="Contributing">Contributing</h2>
+<ul>
+  <li><a href="https://github.com/">https://</a></li>
+  <li><a href="https://github.com/">https://</a></li>
+  <li><a href="https://github.com/">https://</a></li>
+</ul>
 
-* Save the event in local storage when the save button is clicked in that timeblock.
+<h2 id="License">License</h2>
+<p> MIT &copy; 2023 <a href="https://github.com/VitaliyZhark/">Vitaliy Zharkovskiy</a></p>
 
-* Persist events between refreshes of a page
-
-The following animation demonstrates the application functionality:
-
-![A user clicks on slots on the color-coded calendar and edits the events.](./images/05-third-party-apis-homework-demo.gif)
-
-
-## Grading Requirements
-
-This homework is graded based on the following criteria: 
-
-### Technical Acceptance Criteria: 40%
-
-* Satisfies all of the above acceptance criteria plus the following:
-
-  * Uses a date utility library to work with date and time
-
-### Deployment: 32%
-
-* Application deployed at live URL
-
-* Application loads with no errors
-
-* Application GitHub URL submitted
-
-* GitHub repo contains application code
-
-### Application Quality: 15%
-
-* Application user experience is intuitive and easy to navigate
-
-* Application user interface style is clean and polished
-
-* Application resembles the mock-up functionality provided in the homework instructions
-
-### Repository Quality: 13%
-
-* Repository has a unique name
-
-* Repository follows best practices for file structure and naming conventions
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages
-
-* Repository contains quality README file with description, screenshot, and link to deployed application
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application
-
-* The URL of the GitHub repository, with a unique name and a README describing the project
-
----
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
